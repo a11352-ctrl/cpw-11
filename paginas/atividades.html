@@ -8,22 +8,85 @@
 </head>
 
 <body>
+  <!-- Estrutura principal da página do Clube de Basquetebol -->
 
-  <h1>Atividades do Clube</h1>
-  <p>Descobre em detalhe os treinos, jogos e eventos especiais que são organizados durante a época.</p>
+  <header>
+    <h1>Atividades do clube</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="atividades.html">Atividades</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h2>Treinos de Técnica Individual</h2>
-  <p>Sessões focadas no aperfeiçoamento da jogabilidade de cada jogador, incluindo drible, lançamento, passe, entre outros.</p>
+  <main>
 
-  <h2>Torneios de 3x3 e mais</h2>
-  <p>Competições informais ao fim de semana para promover o convívio e a competição saudável.</p>
-<!-- Esquema do processo de treino -->
-  <img src="../imagens/oficina.png"
-       alt="Ciclo do clube: planear, construir, testar e regressar ao planeamento para melhorar."
-       width="600" height="240">
-  <p>
-    <a href="../index.html">Voltar à página inicial</a>
-  </p>
+    <section>
+      <h2>Oficinas do clube</h2>
+      <p>Descobre em detalhe os treinos e eventos que organizamos durante a época.</p>
+
+      <h3>Treinos de Captação</h3>
+      <p>Sessões de integração para novos atletas experimentarem a modalidade.</p>
+
+      <h3>Treinos de Técnica Individual</h3>
+      <p>Sessões focadas no aperfeiçoamento do drible, lançamento e passe.</p>
+
+      <!-- Esquema do processo de treino com legenda -->
+      <figure>
+        <img src="../imagens/oficina.png"
+             alt="Ciclo do clube: planear, construir, testar e regressar ao planeamento para melhorar."
+             width="600" height="240">
+        <figcaption>
+          Como desenvolvemos os projetos e treinos.
+          Fonte: esquema de treino da Aula 06 de CPW, fornecido no Moodle.
+        </figcaption>
+      </figure>
+
+      <p>Recurso útil para descobrir mais sobre o basquetebol em Portugal:</p>
+      <p>
+        <a href="https://www.fpb.pt/" target="_blank" rel="noopener">Federação Portuguesa de Basquetebol</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Quando nos encontramos</h2>
+
+      <table>
+        <caption>Horário das oficinas do clube (exemplo fictício)</caption>
+        <thead>
+          <tr>
+            <th scope="col">Oficina</th>
+            <th scope="col">Dia</th>
+            <th scope="col">Hora</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Captação</th>
+            <td>Terça-feira</td>
+            <td>14h30</td>
+          </tr>
+          <tr>
+            <th scope="row">Técnica Individual</th>
+            <td>Quarta-feira</td>
+            <td>15h00</td>
+          </tr>
+          <tr>
+            <th scope="row">Lançamento e Tática</th>
+            <td>Quinta-feira</td>
+            <td>14h30</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Clube de Basquetebol · Projeto escolar de CPW</p>
+  </footer>
+
 </body>
 
 </html>
