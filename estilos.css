@@ -69,6 +69,24 @@ section {
   box-shadow: 0 4px 12px rgba(18, 59, 79, 0.06);
 }
 
+.cartao {
+  background: #fffdfb;
+  border: 1px solid rgba(31, 77, 105, 0.18);
+  border-radius: 0.8rem;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.cartao.destaque {
+  background: #f9efe5;
+  border-color: rgba(192, 108, 41, 0.5);
+}
+
+.cartao h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
 h1, h2, h3 {
   color: var(--cor-principal);
   line-height: 1.25;
@@ -102,7 +120,7 @@ table {
 }
 
 th, td {
-  border: 1px solid rgba(31,77,105,0.4);
+  border: 1px solid rgba(27, 73, 102, 0.4);
   padding: 0.75rem;
   text-align: left;
 }
