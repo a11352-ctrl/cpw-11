@@ -131,10 +131,10 @@ footer {
   padding: 1rem;
 }
 
-.atividades {
+.lista-atividades {
   display: flex;
-  flex-wrap: wrap;
   gap: 16px;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
