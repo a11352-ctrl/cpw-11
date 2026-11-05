@@ -138,6 +138,30 @@ footer {
   justify-content: center;
 }
 
-.cartao{flex: 1 1 220px ;
+.cartao {
+  flex: 1 1 220px;
+}
 
+.sessao {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+
+.sessao-info,
+.sessao-material {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 16px;
+  border: 1px solid rgba(31, 77, 105, 0.2);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.sessao-info {
+  flex: 2 1 200px;
+}
+
+.sessao-material {
+  flex: 1 1 200px;
 }
