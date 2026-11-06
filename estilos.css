@@ -142,37 +142,28 @@ footer {
   flex: 1 1 220px;
 }
 
-.agenda {
+.sessao {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 24px;
   align-items: flex-start;
-  min-height: 360px;
+}
+
+.sessao-info,
+.sessao-material {
+  min-width: 0;
+  overflow-wrap: anywhere;
   padding: 16px;
-  gap: 12px;
   border: 1px solid rgba(31, 77, 105, 0.2);
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.78);
-}
-
-.agenda h2 {
-  margin: 0;
-}
-
-.momento {
-  width: auto;
-  padding: 12px 16px;
-  border: 1px solid rgba(31, 77, 105, 0.2);
-  border-radius: 0.75rem;
   background: rgba(255, 255, 255, 0.7);
 }
 
-.momento-hora {
-  margin: 0 0 0.5rem;
-  font-weight: 700;
-  color: var(--cor-principal);
+.sessao-info {
+  flex: 2 1 200px;
 }
 
-.momento p:last-child {
-  margin-bottom: 0;
+.sessao-material {
+  flex: 1 1 200px;
 }
+
